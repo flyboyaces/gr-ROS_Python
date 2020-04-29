@@ -12,7 +12,7 @@ This OOT contains two blocks: Publisher_py and Subscriber_py.
 * Type: Sink
 * Input: Byte
 * Function: Takes Byte data as input and converts it into ROS data
-### Subscriber_pu
+### Subscriber_py
 * Type: Source
 * Output: Byte
 * Function: Takes data from ROS and converts it into Byte data.
