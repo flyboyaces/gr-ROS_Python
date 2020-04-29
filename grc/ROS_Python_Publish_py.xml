@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<block>
+  <name>Publish_py</name>
+  <key>ROS_Python_Publish_py</key>
+  <category>[ROS_Python]</category>
+  <import>import ROS_Python</import>
+  <make>ROS_Python.Publish_py($topic, $node_name, $msg_type)</make>
+  <param>
+    <name>Topic</name>
+    <key>topic</key>
+    <type>string</type>
+  </param>
+  <param>
+    <name>Node Name</name>
+    <key>node_name</key>
+    <type>string</type>
+  </param>
+  <param>
+    <name>Message Type</name>
+    <key>msg_type</key>
+    <type>string</type>
+  </param>
+  <sink>
+    <name>in</name>
+    <type>byte</type>
+  </sink>
+</block>
